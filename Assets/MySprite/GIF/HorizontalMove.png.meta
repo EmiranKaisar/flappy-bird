@@ -1,0 +1,1284 @@
+fileFormatVersion: 2
+guid: 3b3eca4ec0c824b8d9619bad6777dbfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4793404674314594845
+    second: HorizontalMove_0
+  - first:
+      213: -2641013458953979000
+    second: HorizontalMove_1
+  - first:
+      213: -8399455981889551173
+    second: HorizontalMove_2
+  - first:
+      213: 4338487757854566719
+    second: HorizontalMove_3
+  - first:
+      213: -3388419878838902064
+    second: HorizontalMove_4
+  - first:
+      213: -8030331235075531602
+    second: HorizontalMove_5
+  - first:
+      213: -5784285462934400041
+    second: HorizontalMove_6
+  - first:
+      213: -8576707845161720450
+    second: HorizontalMove_7
+  - first:
+      213: 4772182182053752363
+    second: HorizontalMove_8
+  - first:
+      213: 901910900688770316
+    second: HorizontalMove_9
+  - first:
+      213: 1194532913557140886
+    second: HorizontalMove_10
+  - first:
+      213: -7025831940186016172
+    second: HorizontalMove_11
+  - first:
+      213: 7485349201644702232
+    second: HorizontalMove_12
+  - first:
+      213: -6646610276276160862
+    second: HorizontalMove_13
+  - first:
+      213: -1239748109620372875
+    second: HorizontalMove_14
+  - first:
+      213: -4707460046793995954
+    second: HorizontalMove_15
+  - first:
+      213: 2399340126344741492
+    second: HorizontalMove_16
+  - first:
+      213: 5469722144334614860
+    second: HorizontalMove_17
+  - first:
+      213: -6337011671976863121
+    second: HorizontalMove_18
+  - first:
+      213: -7542344675646990220
+    second: HorizontalMove_19
+  - first:
+      213: -270594898261168480
+    second: HorizontalMove_20
+  - first:
+      213: 4812055366687458992
+    second: HorizontalMove_21
+  - first:
+      213: -5697862996237830831
+    second: HorizontalMove_22
+  - first:
+      213: 801902797747473254
+    second: HorizontalMove_23
+  - first:
+      213: -8580416692042847079
+    second: HorizontalMove_24
+  - first:
+      213: -5632564895258621350
+    second: HorizontalMove_25
+  - first:
+      213: 1548469340408583885
+    second: HorizontalMove_26
+  - first:
+      213: -4600405999378401492
+    second: HorizontalMove_27
+  - first:
+      213: 5652893608568020726
+    second: HorizontalMove_28
+  - first:
+      213: -9196157374229968833
+    second: HorizontalMove_29
+  - first:
+      213: 6779803073899365352
+    second: HorizontalMove_30
+  - first:
+      213: -1889763196714093649
+    second: HorizontalMove_31
+  - first:
+      213: 6728066339859435068
+    second: HorizontalMove_32
+  - first:
+      213: 2230018900045693344
+    second: HorizontalMove_33
+  - first:
+      213: 8201657392386687165
+    second: HorizontalMove_34
+  - first:
+      213: 953034832800116742
+    second: HorizontalMove_35
+  - first:
+      213: 5950764709265845975
+    second: HorizontalMove_36
+  - first:
+      213: 6683401518354040013
+    second: HorizontalMove_37
+  - first:
+      213: -354076862379669354
+    second: HorizontalMove_38
+  - first:
+      213: 1219371673811758181
+    second: HorizontalMove_39
+  - first:
+      213: -783251518998094058
+    second: HorizontalMove_40
+  - first:
+      213: 5392995177894917474
+    second: HorizontalMove_41
+  - first:
+      213: 8732524188969317539
+    second: HorizontalMove_42
+  - first:
+      213: 5836325958295972382
+    second: HorizontalMove_43
+  - first:
+      213: -4212340026647848381
+    second: HorizontalMove_44
+  - first:
+      213: -6620090614062306829
+    second: HorizontalMove_45
+  - first:
+      213: -2288341014283215609
+    second: HorizontalMove_46
+  - first:
+      213: -5871378971240256331
+    second: HorizontalMove_47
+  - first:
+      213: -1685711904938769449
+    second: HorizontalMove_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HorizontalMove_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e518c268d76a7db0800000000000000
+      internalID: -4793404674314594845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_1
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bb504704c395bd0800000000000000
+      internalID: -2641013458953979000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb481f469432f6b80800000000000000
+      internalID: -8399455981889551173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_3
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f396d4521a7653c30800000000000000
+      internalID: 4338487757854566719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_4
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26fe3a21ae9f0d0800000000000000
+      internalID: -3388419878838902064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_5
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac5998c9488e8090800000000000000
+      internalID: -8030331235075531602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_6
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 2556
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d65694071abfa0800000000000000
+      internalID: -5784285462934400041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7564daf7a969f880800000000000000
+      internalID: -8576707845161720450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e23c419623a3240800000000000000
+      internalID: 4772182182053752363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_9
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055b968f2b348c00800000000000000
+      internalID: 901910900688770316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_10
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695f5112b55d39010800000000000000
+      internalID: 1194532913557140886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_11
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4567e99231b3f7e90800000000000000
+      internalID: -7025831940186016172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_12
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a49c7907d41e760800000000000000
+      internalID: 7485349201644702232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_13
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 2130
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a639124b2f72c3a0800000000000000
+      internalID: -6646610276276160862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a9d1ba9a78bcee0800000000000000
+      internalID: -1239748109620372875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_15
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e490084570ebbaeb0800000000000000
+      internalID: -4707460046793995954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_16
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4728e16f12b2c4120800000000000000
+      internalID: 2399340126344741492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_17
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4117297f4b58eb40800000000000000
+      internalID: 5469722144334614860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_18
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a905295796e08a0800000000000000
+      internalID: -6337011671976863121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_19
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47890828a75345790800000000000000
+      internalID: -7542344675646990220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_20
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 1704
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2c1baf57ae3cf0800000000000000
+      internalID: -270594898261168480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b60be25cdad7c240800000000000000
+      internalID: 4812055366687458992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_22
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155b6622bcf1de0b0800000000000000
+      internalID: -5697862996237830831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_23
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b412c885ee02b00800000000000000
+      internalID: 801902797747473254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_24
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c24f5ca7c3ce880800000000000000
+      internalID: -8580416692042847079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_25
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a46c3021c15d1b0800000000000000
+      internalID: -5632564895258621350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_26
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc613a439a44d7510800000000000000
+      internalID: 1548469340408583885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_27
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 1278
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2779781e131820c0800000000000000
+      internalID: -4600405999378401492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fed5c369cc137e40800000000000000
+      internalID: 5652893608568020726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_29
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f380f6a679fa06080800000000000000
+      internalID: -9196157374229968833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_30
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e38fda89f2b61e50800000000000000
+      internalID: 6779803073899365352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_31
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3ff3e826636c5e0800000000000000
+      internalID: -1889763196714093649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_32
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e859470b4ee5d50800000000000000
+      internalID: 6728066339859435068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_33
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a181abdf5e92fe10800000000000000
+      internalID: 2230018900045693344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_34
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 852
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04aa2b1f322d170800000000000000
+      internalID: 8201657392386687165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ff9b812cd93d00800000000000000
+      internalID: 953034832800116742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_36
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dea8bd79fc559250800000000000000
+      internalID: 5950764709265845975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_37
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc48cc0554630cc50800000000000000
+      internalID: 6683401518354040013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_38
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ccaa38f0161bf0800000000000000
+      internalID: -354076862379669354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_39
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c29baa3141ce010800000000000000
+      internalID: 1219371673811758181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_40
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f5550b4e45125f0800000000000000
+      internalID: -783251518998094058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_41
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 426
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26532dd7a84c7da40800000000000000
+      internalID: 5392995177894917474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4b504ab78203970800000000000000
+      internalID: 8732524188969317539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_43
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a6f91798bcef050800000000000000
+      internalID: 5836325958295972382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_44
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ade7e4013ca85c0800000000000000
+      internalID: -4212340026647848381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_45
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f92be749a6b024a0800000000000000
+      internalID: -6620090614062306829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_46
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d11beb8fd2e30e0800000000000000
+      internalID: -2288341014283215609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_47
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bca68dfeeba48ea0800000000000000
+      internalID: -5871378971240256331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorizontalMove_48
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 0
+        width: 642
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d34a7824f52b98e0800000000000000
+      internalID: -1685711904938769449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
