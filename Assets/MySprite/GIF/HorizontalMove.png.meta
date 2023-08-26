@@ -150,7 +150,7 @@ TextureImporter:
       213: -1685711904938769449
     second: HorizontalMove_48
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -171,6 +171,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -209,6 +210,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -224,6 +226,54 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1276,6 +1326,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      HorizontalMove_0: -4793404674314594845
+      HorizontalMove_1: -2641013458953979000
+      HorizontalMove_10: 1194532913557140886
+      HorizontalMove_11: -7025831940186016172
+      HorizontalMove_12: 7485349201644702232
+      HorizontalMove_13: -6646610276276160862
+      HorizontalMove_14: -1239748109620372875
+      HorizontalMove_15: -4707460046793995954
+      HorizontalMove_16: 2399340126344741492
+      HorizontalMove_17: 5469722144334614860
+      HorizontalMove_18: -6337011671976863121
+      HorizontalMove_19: -7542344675646990220
+      HorizontalMove_2: -8399455981889551173
+      HorizontalMove_20: -270594898261168480
+      HorizontalMove_21: 4812055366687458992
+      HorizontalMove_22: -5697862996237830831
+      HorizontalMove_23: 801902797747473254
+      HorizontalMove_24: -8580416692042847079
+      HorizontalMove_25: -5632564895258621350
+      HorizontalMove_26: 1548469340408583885
+      HorizontalMove_27: -4600405999378401492
+      HorizontalMove_28: 5652893608568020726
+      HorizontalMove_29: -9196157374229968833
+      HorizontalMove_3: 4338487757854566719
+      HorizontalMove_30: 6779803073899365352
+      HorizontalMove_31: -1889763196714093649
+      HorizontalMove_32: 6728066339859435068
+      HorizontalMove_33: 2230018900045693344
+      HorizontalMove_34: 8201657392386687165
+      HorizontalMove_35: 953034832800116742
+      HorizontalMove_36: 5950764709265845975
+      HorizontalMove_37: 6683401518354040013
+      HorizontalMove_38: -354076862379669354
+      HorizontalMove_39: 1219371673811758181
+      HorizontalMove_4: -3388419878838902064
+      HorizontalMove_40: -783251518998094058
+      HorizontalMove_41: 5392995177894917474
+      HorizontalMove_42: 8732524188969317539
+      HorizontalMove_43: 5836325958295972382
+      HorizontalMove_44: -4212340026647848381
+      HorizontalMove_45: -6620090614062306829
+      HorizontalMove_46: -2288341014283215609
+      HorizontalMove_47: -5871378971240256331
+      HorizontalMove_48: -1685711904938769449
+      HorizontalMove_5: -8030331235075531602
+      HorizontalMove_6: -5784285462934400041
+      HorizontalMove_7: -8576707845161720450
+      HorizontalMove_8: 4772182182053752363
+      HorizontalMove_9: 901910900688770316
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
