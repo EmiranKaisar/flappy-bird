@@ -23,10 +23,6 @@ public class MyBlueToothConnector: MonoBehaviour
 
     private bool sentFirst = false;
 
-	public ModularTerrainCameraControl modularTerrainCameraControl;
-
-	public 
-
 	enum States
 	{
 		None,
@@ -297,8 +293,8 @@ public class MyBlueToothConnector: MonoBehaviour
 							
                         }else{
 							_crow = GameObject.FindGameObjectWithTag("Crow");
-							if(_crow != null)
-							    _crow.GetComponent<PlayerController>().ControlPlayerVerMovement(q);
+							//if(_crow != null)
+							    //_crow.GetComponent<PlayerController>().ControlPlayerVerMovement(q);
 							//GameObject.FindGameObjectWithTag("Crow").GetComponent<playerController>().ControlPlayerVerMovement(q);
                             //playerController.ControlPlayerVerMovement(q);
                         }

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,8 +25,13 @@ public class GameManager : MonoBehaviour
     private int playerScore;
     private int playerBalanceScore;
     private int playerCognitiveScore;
+
+    [HideInInspector]
     public float playTime;
-    private int cooperationMode;
+
+    [HideInInspector]
+    public int cooperationMode; //0:single, 1:cooperation_1, 2:cooperation_2
+
     private int levelIndex;
     private int presentStateIndex;
     private int previousStateIndex;
@@ -35,13 +41,10 @@ public class GameManager : MonoBehaviour
     private int cognitiveCount;
     private string playerName;
 
-    //一个场景的中，avatar初试位置和传送门的距离
+    //一个场景的时间
     public float oneSceneLength = 100;
     //avatar的速度
     public float playerSpeed = 10;
-    //所以一个场景的时间为：(oneSceneLength/playerSpeed)秒
-
-
 
     //在avatar临近“认知题”时所停顿的时间，单位：秒
     public float cognitiveTime = 1;
@@ -58,15 +61,12 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public List<ActionClass> ActionList;
 
-
-    private List<int> returnStack = new List<int>();
-
     private bool created = false;
 
     public ElementGenerator elementGenerator;
 
     public GameObject CanvasObj;
-    public GameObject VideoPlayer;
+    public TutorialBehavior tutorialBehavior;
 
     public GameObject GamingScoreText;
     public TMP_Text ResultScoreText;
@@ -91,14 +91,12 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this.gameObject);
             DontDestroyOnLoad(CanvasObj);
-            DontDestroyOnLoad(VideoPlayer);
             created = true;
         }
         else
         {
             Destroy(this.gameObject);
             Destroy(CanvasObj);
-            Destroy(VideoPlayer);
         }
 
         InitGame();
@@ -145,6 +143,12 @@ public class GameManager : MonoBehaviour
       ShowUI(homeIndex);
     }
 
+    public void ChooseModeButtonAction(int _mode)
+    {
+        cooperationMode = _mode;
+        StateButtonAction("GotoTutorial");
+    }
+
     //根据玩家的输入跳转到对应的游戏状态
     public void StateButtonAction(string _actionName)
     {
@@ -164,7 +168,6 @@ public class GameManager : MonoBehaviour
     private void CheckName()
     {
         playerName = PlayerNameInputField.text;
-        Debug.Log("playerName: " + playerName);
         if(playerName != ""){
             UpdateState();
             previousStateIndex = presentStateIndex;
@@ -185,6 +188,8 @@ public class GameManager : MonoBehaviour
         if(ActionList[presentStateIndex].actionName == "ReturnHome")
             HideUI(ReturnIndexByActionName("GotoPlay"));
         
+        if(ActionList[presentStateIndex].actionName == "GotoPlay")
+           GotoTutorial();
 
         if(ActionList[presentStateIndex].actionName == "GotoPlay")
            GotoPlay();
@@ -212,6 +217,11 @@ public class GameManager : MonoBehaviour
     private void ShowUI(int _index)
     {
         ActionList[_index].stateUIObject.SetActive(true);
+    }
+
+    private void GotoTutorial()
+    {
+        tutorialBehavior.UpdateContent(cooperationMode);
     }
 
     //去“游玩”状态
@@ -251,10 +261,19 @@ public class GameManager : MonoBehaviour
         StartCoroutine(EndSequence());
     }
 
+    DateTime dt;
     //将玩家本次游玩的结果进行储存
     private void CreateData()
     {
         PlayerPrefs.SetInt(playerName, playerScore);
+
+        dt = DateTime.Now;
+        PlayerPrefs.SetString(playerName+"_"+"date", dt.ToString());
+
+        PlayerPrefs.SetInt(playerName+"_"+"cognitive", (int)(((float)playerCognitiveScore/cognitiveCount)*100));
+
+        PlayerPrefs.SetInt(playerName+"_"+"mode", cooperationMode);
+
         string allPlayers = PlayerPrefs.GetString("AllPlayers");
         string newAllPlayers = allPlayers + playerName + ";";
         PlayerPrefs.SetString("AllPlayers", newAllPlayers);
@@ -402,6 +421,11 @@ public class GameManager : MonoBehaviour
         cognitiveCount++;
     }
 
+    public void InitAnchorButtonAction()
+    {
+        GameObject.FindGameObjectWithTag("Crow").GetComponent<PlayerController>().InitAnchor();
+    }
+
     //接受“状态名称”，返回对应的"状态序号"
     private int ReturnIndexByActionName(string _actionName)
     {
@@ -416,6 +440,13 @@ public class GameManager : MonoBehaviour
         }
 
         return returnIndex;
+    }
+
+    private string oneData;
+    public void PrintResultButtonAction()
+    {
+        oneData = "player: "+playerName+"; "+"score: "+playerScore.ToString()+"; "+"cognitive: "+ ((int)(((float)playerCognitiveScore/cognitiveCount)*100)).ToString() +"; "+"mode: "+cooperationMode.ToString()+"; "+"date: "+dt.ToString()+";";
+        Debug.Log(oneData);
     }
 
 }
