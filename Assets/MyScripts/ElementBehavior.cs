@@ -18,9 +18,9 @@ public class ElementBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(ifAvoid){
-            GameManager.Instance.AddScore(-1, "Balance");
-        }else{
             GameManager.Instance.AddScore(1, "Balance");
+        }else{
+            GameManager.Instance.AddScore(3, "Balance");
         }
         Instantiate(thisAnim, this.transform.position, Quaternion.identity);
         

@@ -10,7 +10,6 @@ public class PortalBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("hit portal");
         if(nextScene == "GotoResult" && GameManager.Instance.playTime >= GameManager.Instance.oneSceneLength*3 - 10)
             GameManager.Instance.StateButtonAction("GotoResult");
         else

@@ -30,6 +30,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6642845101220202192}
   - {fileID: 6642845101776785107}
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6642845101189749531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +144,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6642845102039742318}
   m_Father: {fileID: 6642845101189749510}
@@ -222,6 +224,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6642845102359104580}
   m_Father: {fileID: 6642845101189749510}
@@ -229,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 0}
+  m_AnchoredPosition: {x: 2.5, y: -2}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6642845101776785117
@@ -297,6 +300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightAnim: {fileID: 5248986664176687982, guid: 8089681f6d6a040d8b460e66b4a8f57b, type: 3}
   wrongAnim: {fileID: 7810053077126956699, guid: 240c2a4bfdb0746e9b9a3860dd310711, type: 3}
+  verticalOffsetBound: 3
 --- !u!54 &8583704566702738196
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -341,6 +345,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6642845101220202192}
   m_RootOrder: 0
@@ -475,6 +480,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6642845102598179177}
   m_RootOrder: 0
@@ -609,6 +615,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6642845101776785107}
   m_RootOrder: 0
@@ -746,6 +753,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6642845102125162872}
   m_Father: {fileID: 6642845101189749510}
@@ -753,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -2.5, y: 0}
+  m_AnchoredPosition: {x: -2.5, y: -2}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6642845102598179179
@@ -821,6 +829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightAnim: {fileID: 5248986664176687982, guid: 8089681f6d6a040d8b460e66b4a8f57b, type: 3}
   wrongAnim: {fileID: 7810053077126956699, guid: 240c2a4bfdb0746e9b9a3860dd310711, type: 3}
+  verticalOffsetBound: 3
 --- !u!54 &6120371893504514690
 Rigidbody:
   m_ObjectHideFlags: 0

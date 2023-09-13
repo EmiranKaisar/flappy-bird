@@ -56,13 +56,12 @@ public class ElementGenerator : MonoBehaviour
         StartCoroutine(generateElement);
     }
 
-    //生成
+    //生成: 每3～6秒，生成碰撞物的概率7/9，生成碰撞物的概率为2/9
     IEnumerator GenerateElement(string _sceneName)
     {
         sceneName = _sceneName;
         while(true)
         {
-            Debug.Log(GameManager.Instance.portalPos);
             if(GameManager.Instance.portalPos.z > Camera.main.transform.position.z + 70){
                 float _typeChooser = Random.Range(0, 9);
                 if(_typeChooser > 2){

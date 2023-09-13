@@ -8,6 +8,10 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
+    //TODO:
+    //检查重名
+    //打印所有数据的功能
+
     //本代码控制游戏的状态
     
     private static  GameManager _instance = null;
@@ -409,7 +413,8 @@ public class GameManager : MonoBehaviour
         if(_type == "Balance"){
             playerBalanceScore += _point;
         }else{
-            playerCognitiveScore += _point;
+            //playerCognitiveScore用于统计个数，以计算准确率，所以这里只+1
+            playerCognitiveScore += 1;
         }
 
         GamingScoreText.GetComponent<TMP_Text>().text = playerScore.ToString();
@@ -447,6 +452,28 @@ public class GameManager : MonoBehaviour
     {
         oneData = "player: "+playerName+"; "+"score: "+playerScore.ToString()+"; "+"cognitive: "+ ((int)(((float)playerCognitiveScore/cognitiveCount)*100)).ToString() +"; "+"mode: "+cooperationMode.ToString()+"; "+"date: "+dt.ToString()+";";
         Debug.Log(oneData);
+    }
+
+
+    public void PrintAllResultButtonAction()
+    {
+        string allPlayers = PlayerPrefs.GetString("AllPlayers");
+        string tempDateString = "";
+        if(allPlayers != null){
+            
+            string[] allPlayersList = allPlayers.Split(';');
+            for (int i = 0; i < allPlayersList.Length - 1; i++)
+            {
+                if(PlayerPrefs.GetString(allPlayersList[i]+"_date", "null") != "null"){
+                    int thisScore = PlayerPrefs.GetInt(allPlayersList[i]);
+                    int thisCognitive = PlayerPrefs.GetInt(allPlayersList[i]+"_cognitive");
+                    int thisMode = PlayerPrefs.GetInt(allPlayersList[i]+"_mode");
+                    tempDateString = PlayerPrefs.GetString(allPlayersList[i]+"_date");
+                    oneData = "player: "+allPlayersList[i]+"; "+"score: "+thisScore.ToString()+"; "+"cognitive: "+ thisCognitive.ToString() +"; "+"mode: "+thisMode.ToString()+"; "+"date: "+tempDateString+";";
+                    Debug.Log(oneData);
+                }
+            }
+        }
     }
 
 }
